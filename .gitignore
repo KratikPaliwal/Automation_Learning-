@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+
+# Playwright reports
+playwright-report/
+test-results/
+blob-report/
+testdata/
+
+# Playwright cache & auth
+playwright/.cache/
+playwright/.auth/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
